@@ -1,4 +1,4 @@
-# Criar senha aleatória do banco de dados MySQL
+# Criar senha aleatória de exemplo para um banco de dados MySQL
 
 db_password=$(date +%s | sha256sum | base64 | head -c 20 ; echo)
 
